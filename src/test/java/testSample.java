@@ -12,17 +12,17 @@ public class testSample {
 	ArrayList data=d.getData("Logout","TestCases","sample", "src/test/resources/demodata.xlsx");
 
 
-//	for (int i = 0; i< data.size();i++){
-//
-//		Values =  data.get(i).toString();
-//
-//		System.out.println(Values);
-//
-//	}
+	for (int i = 0; i< data.size();i++){
 
-		System.out.println(data.get(0));
-		System.out.println(data.get(1));
-		System.out.println(data.get(2));
+		Values =  data.get(i).toString();
+
+		System.out.println(Values);
+
+	}
+//
+//		System.out.println(data.get(0));
+//		System.out.println(data.get(1));
+//		System.out.println(data.get(2));
 
 
 
